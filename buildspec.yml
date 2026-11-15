@@ -13,6 +13,7 @@ phases:
       - npm test
   build:
     commands:
+      - echo "Construyendo..."
       - echo "Construcción completada con éxito"
 
 artifacts:
