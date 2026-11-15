@@ -1,0 +1,18 @@
+{
+  "name": "api-gestion-pedidos",
+  "version": "1.0.0",
+  "description": "API RESTful de gestión de pedidos para despliegue en AWS",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
